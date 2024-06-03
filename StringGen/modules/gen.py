@@ -103,7 +103,7 @@ async def gen_session(
     try:
         phone_number = await Anony.ask(
             identifier=(message.chat.id, user_id, None),
-            text="» ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ :\n ᴇxᴀᴍᴩʟᴇ : `+910000000000`",
+            text="» ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ :\n ᴇxᴀᴍᴩʟᴇ : `+910000000000` ",
             filters=filters.text,
             timeout=300,
         )
