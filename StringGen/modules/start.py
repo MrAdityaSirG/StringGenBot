@@ -11,7 +11,7 @@ async def f_start(_, message: Message):
     jishubotz_sticker = await message.reply_sticker("CAACAgUAAxkBAAO3Zl1TO4kqRF896SDvIRwhTC6TPqgAAs4KAALfYulUwhB9OOWNL_ceBA")
     
     # 2 seconds ka wait
-    await asyncio.sleep(2)
+    await asyncio.sleep(3)
     
     # Sticker delete karna
     await jishubotz_sticker.delete()
