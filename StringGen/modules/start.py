@@ -9,7 +9,7 @@ from StringGen.utils import add_served_user, keyboard
 
 @Anony.on_message(filters.command("start") & filters.private & filters.incoming)
 async def f_start(_, message: Message):
-    await message.react(emoji=choice["⚡️","😁","🥳","💀","👁"], big=True)
+    await message.react(emoji="🔥")
     jishubotz_sticker = await message.reply_sticker("CAACAgUAAxkBAAO3Zl1TO4kqRF896SDvIRwhTC6TPqgAAs4KAALfYulUwhB9OOWNL_ceBA")
     
     # 2 seconds ka wait
